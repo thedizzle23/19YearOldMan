@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B266A6DA15BE0401006FC7CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B266A6D915BE0401006FC7CE /* UIKit.framework */; };
+		B266A6DC15BE0401006FC7CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B266A6DB15BE0401006FC7CE /* Foundation.framework */; };
+		B266A6DE15BE0401006FC7CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B266A6DD15BE0401006FC7CE /* CoreGraphics.framework */; };
+		B266A6E015BE0401006FC7CE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B266A6DF15BE0401006FC7CE /* CoreData.framework */; };
+		B266A6E615BE0401006FC7CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B266A6E415BE0401006FC7CE /* InfoPlist.strings */; };
+		B266A6E815BE0401006FC7CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B266A6E715BE0401006FC7CE /* main.m */; };
+		B266A6EC15BE0401006FC7CE /* DeskiPhoneApplicationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B266A6EB15BE0401006FC7CE /* DeskiPhoneApplicationAppDelegate.m */; };
+		B266A6EF15BE0401006FC7CE /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B266A6ED15BE0401006FC7CE /* MainStoryboard_iPhone.storyboard */; };
+		B266A6F215BE0401006FC7CE /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B266A6F015BE0401006FC7CE /* MainStoryboard_iPad.storyboard */; };
+		B266A6F515BE0402006FC7CE /* AwayFromDesk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B266A6F315BE0402006FC7CE /* AwayFromDesk.xcdatamodeld */; };
+		B266A6F815BE0402006FC7CE /* DeskiPhoneApplicationMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B266A6F715BE0402006FC7CE /* DeskiPhoneApplicationMainViewController.m */; };
+		B266A6FB15BE0402006FC7CE /* DeskiPhoneApplicationFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B266A6FA15BE0402006FC7CE /* DeskiPhoneApplicationFlipsideViewController.m */; };
+		B266A70315BE0402006FC7CE /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B266A70215BE0402006FC7CE /* SenTestingKit.framework */; };
+		B266A70415BE0402006FC7CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B266A6D915BE0401006FC7CE /* UIKit.framework */; };
+		B266A70515BE0402006FC7CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B266A6DB15BE0401006FC7CE /* Foundation.framework */; };
+		B266A70615BE0402006FC7CE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B266A6DF15BE0401006FC7CE /* CoreData.framework */; };
+		B266A70E15BE0402006FC7CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B266A70C15BE0402006FC7CE /* InfoPlist.strings */; };
+		B266A71115BE0402006FC7CE /* AwayFromDeskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B266A71015BE0402006FC7CE /* AwayFromDeskTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B266A70715BE0402006FC7CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B266A6CC15BE0401006FC7CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B266A6D415BE0401006FC7CE;
+			remoteInfo = AwayFromDesk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B266A6D515BE0401006FC7CE /* AwayFromDesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwayFromDesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B266A6D915BE0401006FC7CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B266A6DB15BE0401006FC7CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B266A6DD15BE0401006FC7CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B266A6DF15BE0401006FC7CE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B266A6E315BE0401006FC7CE /* AwayFromDesk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AwayFromDesk-Info.plist"; sourceTree = "<group>"; };
+		B266A6E515BE0401006FC7CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B266A6E715BE0401006FC7CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B266A6E915BE0401006FC7CE /* AwayFromDesk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AwayFromDesk-Prefix.pch"; sourceTree = "<group>"; };
+		B266A6EA15BE0401006FC7CE /* DeskiPhoneApplicationAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeskiPhoneApplicationAppDelegate.h; sourceTree = "<group>"; };
+		B266A6EB15BE0401006FC7CE /* DeskiPhoneApplicationAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeskiPhoneApplicationAppDelegate.m; sourceTree = "<group>"; };
+		B266A6EE15BE0401006FC7CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B266A6F115BE0401006FC7CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B266A6F415BE0402006FC7CE /* AwayFromDesk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AwayFromDesk.xcdatamodel; sourceTree = "<group>"; };
+		B266A6F615BE0402006FC7CE /* DeskiPhoneApplicationMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeskiPhoneApplicationMainViewController.h; sourceTree = "<group>"; };
+		B266A6F715BE0402006FC7CE /* DeskiPhoneApplicationMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeskiPhoneApplicationMainViewController.m; sourceTree = "<group>"; };
+		B266A6F915BE0402006FC7CE /* DeskiPhoneApplicationFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeskiPhoneApplicationFlipsideViewController.h; sourceTree = "<group>"; };
+		B266A6FA15BE0402006FC7CE /* DeskiPhoneApplicationFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeskiPhoneApplicationFlipsideViewController.m; sourceTree = "<group>"; };
+		B266A70115BE0402006FC7CE /* AwayFromDeskTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwayFromDeskTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B266A70215BE0402006FC7CE /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B266A70B15BE0402006FC7CE /* AwayFromDeskTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AwayFromDeskTests-Info.plist"; sourceTree = "<group>"; };
+		B266A70D15BE0402006FC7CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B266A70F15BE0402006FC7CE /* AwayFromDeskTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AwayFromDeskTests.h; sourceTree = "<group>"; };
+		B266A71015BE0402006FC7CE /* AwayFromDeskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwayFromDeskTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B266A6D215BE0401006FC7CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B266A6DA15BE0401006FC7CE /* UIKit.framework in Frameworks */,
+				B266A6DC15BE0401006FC7CE /* Foundation.framework in Frameworks */,
+				B266A6DE15BE0401006FC7CE /* CoreGraphics.framework in Frameworks */,
+				B266A6E015BE0401006FC7CE /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B266A6FD15BE0402006FC7CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B266A70315BE0402006FC7CE /* SenTestingKit.framework in Frameworks */,
+				B266A70415BE0402006FC7CE /* UIKit.framework in Frameworks */,
+				B266A70515BE0402006FC7CE /* Foundation.framework in Frameworks */,
+				B266A70615BE0402006FC7CE /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B266A6CA15BE0401006FC7CE = {
+			isa = PBXGroup;
+			children = (
+				B266A6E115BE0401006FC7CE /* AwayFromDesk */,
+				B266A70915BE0402006FC7CE /* AwayFromDeskTests */,
+				B266A6D815BE0401006FC7CE /* Frameworks */,
+				B266A6D615BE0401006FC7CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B266A6D615BE0401006FC7CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B266A6D515BE0401006FC7CE /* AwayFromDesk.app */,
+				B266A70115BE0402006FC7CE /* AwayFromDeskTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B266A6D815BE0401006FC7CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B266A6D915BE0401006FC7CE /* UIKit.framework */,
+				B266A6DB15BE0401006FC7CE /* Foundation.framework */,
+				B266A6DD15BE0401006FC7CE /* CoreGraphics.framework */,
+				B266A6DF15BE0401006FC7CE /* CoreData.framework */,
+				B266A70215BE0402006FC7CE /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B266A6E115BE0401006FC7CE /* AwayFromDesk */ = {
+			isa = PBXGroup;
+			children = (
+				B266A6EA15BE0401006FC7CE /* DeskiPhoneApplicationAppDelegate.h */,
+				B266A6EB15BE0401006FC7CE /* DeskiPhoneApplicationAppDelegate.m */,
+				B266A6ED15BE0401006FC7CE /* MainStoryboard_iPhone.storyboard */,
+				B266A6F015BE0401006FC7CE /* MainStoryboard_iPad.storyboard */,
+				B266A6F615BE0402006FC7CE /* DeskiPhoneApplicationMainViewController.h */,
+				B266A6F715BE0402006FC7CE /* DeskiPhoneApplicationMainViewController.m */,
+				B266A6F915BE0402006FC7CE /* DeskiPhoneApplicationFlipsideViewController.h */,
+				B266A6FA15BE0402006FC7CE /* DeskiPhoneApplicationFlipsideViewController.m */,
+				B266A6F315BE0402006FC7CE /* AwayFromDesk.xcdatamodeld */,
+				B266A6E215BE0401006FC7CE /* Supporting Files */,
+			);
+			path = AwayFromDesk;
+			sourceTree = "<group>";
+		};
+		B266A6E215BE0401006FC7CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B266A6E315BE0401006FC7CE /* AwayFromDesk-Info.plist */,
+				B266A6E415BE0401006FC7CE /* InfoPlist.strings */,
+				B266A6E715BE0401006FC7CE /* main.m */,
+				B266A6E915BE0401006FC7CE /* AwayFromDesk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B266A70915BE0402006FC7CE /* AwayFromDeskTests */ = {
+			isa = PBXGroup;
+			children = (
+				B266A70F15BE0402006FC7CE /* AwayFromDeskTests.h */,
+				B266A71015BE0402006FC7CE /* AwayFromDeskTests.m */,
+				B266A70A15BE0402006FC7CE /* Supporting Files */,
+			);
+			path = AwayFromDeskTests;
+			sourceTree = "<group>";
+		};
+		B266A70A15BE0402006FC7CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B266A70B15BE0402006FC7CE /* AwayFromDeskTests-Info.plist */,
+				B266A70C15BE0402006FC7CE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B266A6D415BE0401006FC7CE /* AwayFromDesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B266A71415BE0402006FC7CE /* Build configuration list for PBXNativeTarget "AwayFromDesk" */;
+			buildPhases = (
+				B266A6D115BE0401006FC7CE /* Sources */,
+				B266A6D215BE0401006FC7CE /* Frameworks */,
+				B266A6D315BE0401006FC7CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AwayFromDesk;
+			productName = AwayFromDesk;
+			productReference = B266A6D515BE0401006FC7CE /* AwayFromDesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B266A70015BE0402006FC7CE /* AwayFromDeskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B266A71715BE0402006FC7CE /* Build configuration list for PBXNativeTarget "AwayFromDeskTests" */;
+			buildPhases = (
+				B266A6FC15BE0402006FC7CE /* Sources */,
+				B266A6FD15BE0402006FC7CE /* Frameworks */,
+				B266A6FE15BE0402006FC7CE /* Resources */,
+				B266A6FF15BE0402006FC7CE /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B266A70815BE0402006FC7CE /* PBXTargetDependency */,
+			);
+			name = AwayFromDeskTests;
+			productName = AwayFromDeskTests;
+			productReference = B266A70115BE0402006FC7CE /* AwayFromDeskTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B266A6CC15BE0401006FC7CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DeskiPhoneApplication;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B266A6CF15BE0401006FC7CE /* Build configuration list for PBXProject "AwayFromDesk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B266A6CA15BE0401006FC7CE;
+			productRefGroup = B266A6D615BE0401006FC7CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B266A6D415BE0401006FC7CE /* AwayFromDesk */,
+				B266A70015BE0402006FC7CE /* AwayFromDeskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B266A6D315BE0401006FC7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B266A6E615BE0401006FC7CE /* InfoPlist.strings in Resources */,
+				B266A6EF15BE0401006FC7CE /* MainStoryboard_iPhone.storyboard in Resources */,
+				B266A6F215BE0401006FC7CE /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B266A6FE15BE0402006FC7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B266A70E15BE0402006FC7CE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B266A6FF15BE0402006FC7CE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B266A6D115BE0401006FC7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B266A6E815BE0401006FC7CE /* main.m in Sources */,
+				B266A6EC15BE0401006FC7CE /* DeskiPhoneApplicationAppDelegate.m in Sources */,
+				B266A6F515BE0402006FC7CE /* AwayFromDesk.xcdatamodeld in Sources */,
+				B266A6F815BE0402006FC7CE /* DeskiPhoneApplicationMainViewController.m in Sources */,
+				B266A6FB15BE0402006FC7CE /* DeskiPhoneApplicationFlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B266A6FC15BE0402006FC7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B266A71115BE0402006FC7CE /* AwayFromDeskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B266A70815BE0402006FC7CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B266A6D415BE0401006FC7CE /* AwayFromDesk */;
+			targetProxy = B266A70715BE0402006FC7CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B266A6E415BE0401006FC7CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B266A6E515BE0401006FC7CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B266A6ED15BE0401006FC7CE /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B266A6EE15BE0401006FC7CE /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B266A6F015BE0401006FC7CE /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B266A6F115BE0401006FC7CE /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		B266A70C15BE0402006FC7CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B266A70D15BE0402006FC7CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B266A71215BE0402006FC7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B266A71315BE0402006FC7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B266A71515BE0402006FC7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AwayFromDesk/AwayFromDesk-Prefix.pch";
+				INFOPLIST_FILE = "AwayFromDesk/AwayFromDesk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B266A71615BE0402006FC7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AwayFromDesk/AwayFromDesk-Prefix.pch";
+				INFOPLIST_FILE = "AwayFromDesk/AwayFromDesk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B266A71815BE0402006FC7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AwayFromDesk.app/AwayFromDesk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AwayFromDesk/AwayFromDesk-Prefix.pch";
+				INFOPLIST_FILE = "AwayFromDeskTests/AwayFromDeskTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B266A71915BE0402006FC7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AwayFromDesk.app/AwayFromDesk";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AwayFromDesk/AwayFromDesk-Prefix.pch";
+				INFOPLIST_FILE = "AwayFromDeskTests/AwayFromDeskTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B266A6CF15BE0401006FC7CE /* Build configuration list for PBXProject "AwayFromDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B266A71215BE0402006FC7CE /* Debug */,
+				B266A71315BE0402006FC7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B266A71415BE0402006FC7CE /* Build configuration list for PBXNativeTarget "AwayFromDesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B266A71515BE0402006FC7CE /* Debug */,
+				B266A71615BE0402006FC7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B266A71715BE0402006FC7CE /* Build configuration list for PBXNativeTarget "AwayFromDeskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B266A71815BE0402006FC7CE /* Debug */,
+				B266A71915BE0402006FC7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B266A6F315BE0402006FC7CE /* AwayFromDesk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B266A6F415BE0402006FC7CE /* AwayFromDesk.xcdatamodel */,
+			);
+			currentVersion = B266A6F415BE0402006FC7CE /* AwayFromDesk.xcdatamodel */;
+			path = AwayFromDesk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B266A6CC15BE0401006FC7CE /* Project object */;
+}
